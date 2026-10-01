@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f5f6ef" />
+    <title>EduGenie - your study companion</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/styles.css" />
+    <script src="/static/app.js" defer></script>
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar" aria-label="Study tools">
+        <a class="brand" href="/" aria-label="EduGenie home">
+          <span class="brand-mark" aria-hidden="true">e</span>
+          <span>edu<span class="brand-accent">genie</span></span>
+        </a>
+
+        <div class="sidebar-label">YOUR WORKSPACE</div>
+        <nav class="tool-nav" aria-label="Choose a study tool">
+          <button class="tool-link is-active" type="button" data-action="ask">
+            <span class="tool-number">01</span><span>Ask anything</span>
+          </button>
+          <button class="tool-link" type="button" data-action="simplify">
+            <span class="tool-number">02</span><span>Simplify a concept</span>
+          </button>
+          <button class="tool-link" type="button" data-action="quiz">
+            <span class="tool-number">03</span><span>Generate a quiz</span>
+          </button>
+          <button class="tool-link" type="button" data-action="path">
+            <span class="tool-number">04</span><span>Build a learning path</span>
+          </button>
+          <button class="tool-link" type="button" data-action="summarize">
+            <span class="tool-number">05</span><span>Summarize text</span>
+          </button>
+        </nav>
+
+        <div class="sidebar-bottom">
+          <div class="sidebar-note-mark" aria-hidden="true">✳</div>
+          <p>Small steps add up.</p>
+          <span>One good question can open a whole new subject.</span>
+        </div>
+      </aside>
+
+      <main class="main-area">
+        <header class="topbar">
+          <div class="breadcrumb"><span>Study space</span><span class="breadcrumb-slash">/</span><strong id="current-tool">Ask anything</strong></div>
+          <div class="mode-indicator" id="mode-indicator" data-mode="demo">
+            <span class="mode-dot" aria-hidden="true"></span>
+            <span id="mode-label">Demo mode</span>
+          </div>
+        </header>
+
+        <div class="workspace">
+          <section class="study-column" aria-labelledby="page-title">
+            <div class="eyebrow"><span class="eyebrow-line"></span> A LITTLE CLARITY GOES A LONG WAY</div>
+            <h1 id="page-title">Make room<br />for <span>understanding.</span></h1>
+            <p class="intro" id="intro-copy">Curiosity is a good place to start. Ask a question and build from there.</p>
+
+            <form class="composer" id="study-form">
+              <label class="field-label" id="input-label" for="study-input">WHAT'S ON YOUR MIND?</label>
+              <textarea id="study-input" name="content" rows="4" maxlength="12000" placeholder="Which is the largest ocean?" required></textarea>
+              <div class="composer-footer">
+                <label class="level-control" for="level-select">
+                  <span>LEVEL</span>
+                  <select id="level-select" name="level">
+                    <option value="beginner">Beginner</option>
+                    <option value="intermediate">Intermediate</option>
+                    <option value="advanced">Advanced</option>
+                  </select>
+                </label>
+                <button class="submit-button" id="submit-button" type="submit">
+                  <span id="submit-label">Get an answer</span><span class="submit-arrow" aria-hidden="true">↗</span>
+                </button>
+              </div>
+            </form>
+
+            <div class="suggestions" id="suggestions">
+              <span class="suggestion-label">TRY THIS</span>
+              <button type="button" class="suggestion-chip" data-prompt="Which is the largest ocean?">Which is the largest ocean?</button>
+              <button type="button" class="suggestion-chip" data-prompt="Explain photosynthesis in simple terms">Explain photosynthesis</button>
+            </div>
+
+            <section class="response-panel" id="response-panel" aria-live="polite" hidden>
+              <div class="response-heading">
+                <div><span class="response-kicker">YOUR STUDY NOTES</span><h2 id="response-title">Here's what I found</h2></div>
+                <button class="copy-button" id="copy-button" type="button" title="Copy answer" aria-label="Copy answer">Copy</button>
+              </div>
+              <div class="response-body" id="response-body"></div>
+              <div class="response-footer" id="response-footer"></div>
+            </section>
+          </section>
+
+          <aside class="guide-column" aria-label="Study suggestions">
+            <div class="guide-heading"><span class="guide-spark" aria-hidden="true">✳</span><span>YOUR STUDY DESK</span></div>
+            <div class="desk-rule"></div>
+            <p class="desk-intro">A few ways to keep moving.</p>
+
+            <button class="desk-item" type="button" data-action="quiz">
+              <span class="desk-index">A</span>
+              <span class="desk-copy"><strong>Check what you know</strong><span>Turn a topic into a quick quiz.</span></span>
+              <span class="desk-arrow" aria-hidden="true">↗</span>
+            </button>
+            <button class="desk-item" type="button" data-action="path">
+              <span class="desk-index">B</span>
+              <span class="desk-copy"><strong>Plan your next steps</strong><span>Build a path from curious to confident.</span></span>
+              <span class="desk-arrow" aria-hidden="true">↗</span>
+            </button>
+            <button class="desk-item" type="button" data-action="summarize">
+              <span class="desk-index">C</span>
+              <span class="desk-copy"><strong>Find the key ideas</strong><span>Make a long passage easier to scan.</span></span>
+              <span class="desk-arrow" aria-hidden="true">↗</span>
+            </button>
+
+            <div class="desk-bottom">
+              <div class="desk-bottom-mark" aria-hidden="true">↗</div>
+              <p>Learning isn't a race.</p>
+              <span>Take one idea at a time. Come back whenever you're ready.</span>
+            </div>
+          </aside>
+        </div>
+        <footer class="page-footer"><span>EDUGENIE</span><span>MADE FOR THE MOMENT YOU GET CURIOUS</span></footer>
+      </main>
+    </div>
+  </body>
+</html>
