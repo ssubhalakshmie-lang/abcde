@@ -1,0 +1,67 @@
+<svg width="1600" height="1000" viewBox="0 0 1600 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="1000" fill="#F5F6EF"/>
+  <rect x="0" y="0" width="250" height="1000" fill="#E9EEE4"/>
+  <rect x="30" y="40" width="140" height="45" rx="12" fill="#275D42"/>
+  <text x="65" y="72" fill="white" font-family="Georgia, serif" font-size="28" font-weight="700">e</text>
+  <text x="185" y="71" fill="#22271F" font-family="Arial, sans-serif" font-size="27" font-weight="700">edu</text>
+  <text x="254" y="71" fill="#275D42" font-family="Arial, sans-serif" font-size="27" font-weight="700">genie</text>
+
+  <text x="55" y="175" fill="#7A8176" font-family="Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="2">YOUR WORKSPACE</text>
+  <rect x="44" y="210" width="172" height="42" rx="8" fill="#DCE6D8"/>
+  <text x="64" y="237" fill="#275D42" font-family="Arial, sans-serif" font-size="14" font-weight="700">01 Ask anything</text>
+  <rect x="44" y="260" width="172" height="42" rx="8" fill="transparent"/>
+  <text x="64" y="287" fill="#5A6157" font-family="Arial, sans-serif" font-size="14" font-weight="600">02 Simplify</text>
+  <rect x="44" y="310" width="172" height="42" rx="8" fill="transparent"/>
+  <text x="64" y="337" fill="#5A6157" font-family="Arial, sans-serif" font-size="14" font-weight="600">03 Generate quiz</text>
+  <rect x="44" y="360" width="172" height="42" rx="8" fill="transparent"/>
+  <text x="64" y="387" fill="#5A6157" font-family="Arial, sans-serif" font-size="14" font-weight="600">04 Learning path</text>
+  <rect x="44" y="410" width="172" height="42" rx="8" fill="transparent"/>
+  <text x="64" y="437" fill="#5A6157" font-family="Arial, sans-serif" font-size="14" font-weight="600">05 Summarize</text>
+
+  <rect x="300" y="32" width="1260" height="890" rx="18" fill="#FFFDF8" stroke="#E0E4D8"/>
+  <text x="370" y="95" fill="#6B7268" font-family="Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="2">STUDY SPACE / ASK ANYTHING</text>
+  <rect x="1320" y="70" width="130" height="28" rx="14" fill="#E8F5E9"/>
+  <circle cx="1340" cy="84" r="5" fill="#6AA76D"/>
+  <text x="1353" y="90" fill="#275D42" font-family="Arial, sans-serif" font-size="12" font-weight="700">Demo mode</text>
+
+  <text x="370" y="180" fill="#22271F" font-family="Georgia, serif" font-size="62" font-weight="400">Make room</text>
+  <text x="370" y="250" fill="#275D42" font-family="Georgia, serif" font-size="62" font-weight="400">for understanding.</text>
+  <text x="370" y="300" fill="#73796E" font-family="Arial, sans-serif" font-size="18">Curiosity is a good place to start. Ask a question and build from there.</text>
+
+  <rect x="370" y="340" width="720" height="180" rx="10" fill="#FFFDF8" stroke="#DDE2D8"/>
+  <text x="390" y="376" fill="#7B8177" font-family="Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="2">WHAT'S ON YOUR MIND?</text>
+  <text x="390" y="430" fill="#A4A99F" font-family="Arial, sans-serif" font-size="18">Which is the largest ocean?</text>
+  <line x1="390" y1="456" x2="1060" y2="456" stroke="#EDF0EA"/>
+  <rect x="390" y="470" width="120" height="26" rx="6" fill="#F2F5EE"/>
+  <text x="407" y="488" fill="#5D645B" font-family="Arial, sans-serif" font-size="12">Beginner</text>
+  <rect x="918" y="466" width="150" height="38" rx="8" fill="#275D42"/>
+  <text x="956" y="490" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="700">Get an answer</text>
+
+  <text x="372" y="583" fill="#7B8177" font-family="Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="2">TRY THIS</text>
+  <rect x="470" y="564" width="220" height="34" rx="6" fill="#F7F8F2" stroke="#E2E7DD"/>
+  <text x="490" y="586" fill="#5D645B" font-family="Arial, sans-serif" font-size="12">Which is the largest ocean?</text>
+  <rect x="705" y="564" width="190" height="34" rx="6" fill="#F7F8F2" stroke="#E2E7DD"/>
+  <text x="725" y="586" fill="#5D645B" font-family="Arial, sans-serif" font-size="12">Explain photosynthesis</text>
+
+  <rect x="1160" y="340" width="320" height="460" rx="14" fill="#F2F5EE" stroke="#DDE2D8"/>
+  <text x="1190" y="382" fill="#7A8177" font-family="Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="2">YOUR STUDY DESK</text>
+  <line x1="1190" y1="400" x2="1435" y2="400" stroke="#D7DDCF"/>
+  <text x="1190" y="435" fill="#5B6057" font-family="Georgia, serif" font-size="20">A few ways to keep moving.</text>
+  <rect x="1190" y="465" width="260" height="100" rx="8" fill="#F8F9F5" stroke="#E3E7DE"/>
+  <text x="1212" y="500" fill="#8C9488" font-family="Georgia, serif" font-size="18">A</text>
+  <text x="1245" y="495" fill="#2F3933" font-family="Arial, sans-serif" font-size="14" font-weight="700">Check what you know</text>
+  <text x="1245" y="518" fill="#7B8177" font-family="Arial, sans-serif" font-size="12">Turn a topic into a quick quiz.</text>
+
+  <rect x="1190" y="579" width="260" height="100" rx="8" fill="#F8F9F5" stroke="#E3E7DE"/>
+  <text x="1212" y="613" fill="#8C9488" font-family="Georgia, serif" font-size="18">B</text>
+  <text x="1245" y="608" fill="#2F3933" font-family="Arial, sans-serif" font-size="14" font-weight="700">Plan your next steps</text>
+  <text x="1245" y="630" fill="#7B8177" font-family="Arial, sans-serif" font-size="12">Build a path from curious to confident.</text>
+
+  <rect x="1190" y="693" width="260" height="90" rx="8" fill="#F8F9F5" stroke="#E3E7DE"/>
+  <text x="1212" y="726" fill="#8C9488" font-family="Georgia, serif" font-size="18">C</text>
+  <text x="1245" y="721" fill="#2F3933" font-family="Arial, sans-serif" font-size="14" font-weight="700">Find the key ideas</text>
+  <text x="1245" y="743" fill="#7B8177" font-family="Arial, sans-serif" font-size="12">Make a long passage easier to scan.</text>
+
+  <text x="370" y="730" fill="#42483E" font-family="Arial, sans-serif" font-size="18">The Pacific Ocean is the largest ocean on Earth.</text>
+  <text x="370" y="770" fill="#42483E" font-family="Arial, sans-serif" font-size="18">It covers more area than all of Earth’s land combined.</text>
+</svg>
