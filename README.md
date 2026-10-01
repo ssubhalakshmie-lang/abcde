@@ -5,6 +5,7 @@ A lightweight AI-powered educational assistant built for students who want quick
 [![Python](https://img.shields.io/badge/Python-3.14-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.142-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
 [![Status](https://img.shields.io/badge/Status-Completed-brightgreen)](https://github.com/ssubhalakshmie-lang/abcde)
+[![Tests](https://github.com/ssubhalakshmie-lang/abcde/actions/workflows/tests.yml/badge.svg)](https://github.com/ssubhalakshmie-lang/abcde/actions/workflows/tests.yml)
 
 EduGenie helps learners ask questions, simplify unfamiliar concepts, generate quizzes, build structured learning paths, and summarize long educational content. It blends a clean browser experience with a FastAPI backend and works in demo mode without an AI key or with an OpenAI-compatible model when configured.
 
